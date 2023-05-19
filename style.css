@@ -10,7 +10,7 @@ h1{
 .orange_colour{
     color: orange;
 }
-section{
+.flexible-section{
     display: flex;
     margin-bottom: 100px;
 }
@@ -66,4 +66,25 @@ section{
    
     /*background-position: right; */
    
+}
+.box-Shadow{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 40px;
+    border-radius: 5%;
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+
+}
+#full-stack-developer{
+   border-left: 5px solid red;
+   border-right: 5px solid blue;
+}
+#baby-developer
+{
+  border-right: 5px solid blue;
+  border-left: 5px solid red;
+}
+footer p{
+    text-align: center;
 }
