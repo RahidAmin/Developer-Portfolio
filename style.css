@@ -12,6 +12,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width
 {
@@ -36,4 +37,33 @@ section{
     background-image: url(images/18129294.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.bottom-banner
+{
+    width: 50%;
+    padding-right: 2px;
+}
+.bottom-banner img{
+    width: 50%;
+
+}
+.ancher_decorator2{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: orange;
+    border-radius: 5%;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,red);
+    font-weight: 700;
+
+}
+.dream-big
+{
+    background-image: url(images/pexels-scott-webb-1029624.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /*background-position: right; */
+   
 }
